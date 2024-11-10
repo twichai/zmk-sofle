@@ -50,7 +50,7 @@ layers:
   - N
   - M
   - {t: ',', h: '$$mdi:apple-keyboard-option$$', s: <}
-  - {t: ',', h: RIGHT WIN, s: <}
+  - {t: ., h: RIGHT WIN, s: '>'}
   - {t: /, s: '?'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
