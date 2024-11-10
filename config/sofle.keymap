@@ -59,6 +59,11 @@
             bindings = <&kp ESC>;
             key-positions = <14 15>;
         };
+
+        system_key {
+            bindings = <&mo 3>;
+            key-positions = <34 35 36 37>;
+        };
     };
 
     keymap {
@@ -98,6 +103,16 @@
             >;
 
             sensor-bindings = <&scroll_encoder>;
+        };
+
+        layer_3 {
+            bindings = <
+&trans  &trans        &trans        &trans            &trans          &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans        &trans        &trans            &trans          &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &sk LEFT_ALT  &sk LEFT_WIN  &sk LEFT_CONTROL  &sk LEFT_SHIFT  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans        &trans        &trans            &trans          &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans        &trans        &trans            &to 0           &trans    &trans  &trans  &trans  &trans  &trans  &trans
+            >;
         };
     };
 };
