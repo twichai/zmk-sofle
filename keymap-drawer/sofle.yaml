@@ -29,28 +29,28 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - A
-  - {t: S, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: D, h: LEFT WIN}
+  - S
+  - D
   - F
   - G
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - H
   - J
-  - {t: K, h: RIGHT WIN}
-  - {t: L, h: '$$mdi:apple-keyboard-option$$'}
+  - K
+  - L
   - {t: ;, s: ':'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - Z
-  - X
+  - {t: Z, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: X, h: LEFT WIN}
   - C
   - V
   - B
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - N
   - M
-  - {t: ',', s: <}
-  - {t: ., s: '>'}
+  - {t: ',', h: '$$mdi:apple-keyboard-option$$', s: <}
+  - {t: ',', h: RIGHT WIN, s: <}
   - {t: /, s: '?'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
