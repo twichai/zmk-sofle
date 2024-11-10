@@ -41,16 +41,16 @@ layers:
   - {t: ;, s: ':'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: Z, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: X, h: LEFT WIN}
+  - Z
+  - X
   - C
   - V
   - B
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - N
   - M
-  - {t: ',', h: '$$mdi:apple-keyboard-option$$', s: <}
-  - {t: ., h: RIGHT WIN, s: '>'}
+  - {t: ',', s: <}
+  - {t: ., s: '>'}
   - {t: /, s: '?'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
