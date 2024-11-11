@@ -101,7 +101,7 @@
 &none  &bt BT_CLR    &bt BT_CLR_ALL  &none         &none         &none           &mmv MOVE_DOWN   &none   &none   &kp F11     &kp F12    &kp UNDER    &kp PLUS
 &none  &out OUT_USB  &out OUT_BLE    &none         &none         &none           &mmv MOVE_LEFT   &none   &none   &none       &none      &kp LBRC     &kp RBRC
 &none  &sys_reset    &none           &bootloader   &none         &none           &mmv MOVE_RIGHT  &none   &none   &sys_reset  &soft_off  &bootloader  &none
-&none  &none         &none           &none         &to 1         &none           &mkp LCLK        &none   &none   &none       &none      &none
+&none  &none         &none           &none         &to 0         &none           &mkp LCLK        &none   &none   &none       &none      &none
             >;
 
             sensor-bindings = <&scroll_encoder>;
