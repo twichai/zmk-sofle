@@ -82,8 +82,8 @@
             key-positions = <34 35 36 37>;
         };
 
-        to3 {
-            bindings = <&mo 3>;
+        to2 {
+            bindings = <&mo 2>;
             key-positions = <16 17>;
         };
     };
