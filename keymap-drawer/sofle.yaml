@@ -212,8 +212,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - '&dance_F11'
   - '&dance_F12'
-  - F3
-  - F4
+  - {t: F3, type: held alternate}
+  - {t: F4, type: held alternate}
   - F5
   - {t: '$$mdi:transfer$$', type: trans}
   - F6
@@ -270,4 +270,6 @@ combos:
 - p: [14, 15]
   k: $$mdi:keyboard-esc$$
 - p: [34, 35, 36, 37]
+  k: '3'
+- p: [16, 17]
   k: '3'
