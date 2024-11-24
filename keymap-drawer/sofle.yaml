@@ -261,17 +261,19 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
-- p: [21, 22]
+- p: [36, 37]
   k: {t: '$$mdi:backspace$$', type: backspace}
 - p: [48, 49]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
 - p: [41, 40]
   k: $$mdi:keyboard-tab$$
-- p: [16, 17]
+- p: [29, 28]
   k: $$mdi:keyboard-esc$$
 - p: [34, 35, 36, 37]
   k: '3'
 - p: [41, 42]
-  k: COPY
+  k: AC COPY
 - p: [42, 43]
   k: PASTE
+- p: [29, 30]
+  k: $$mdi:apple-keyboard-shift$$
