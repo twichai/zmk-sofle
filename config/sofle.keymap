@@ -82,16 +82,6 @@
             key-positions = <34 35 36 37>;
         };
 
-        copy {
-            bindings = <&kp LC(K_COPY)>;
-            key-positions = <41 42>;
-        };
-
-        paste {
-            bindings = <&kp LC(K_PASTE)>;
-            key-positions = <42 43>;
-        };
-
         l_shift {
             bindings = <&kp LEFT_SHIFT>;
             key-positions = <29 30>;
