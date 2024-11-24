@@ -147,8 +147,8 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$', type: held}
-  - {t: '$$mdi:minus-circle-outline$$', type: held}
+  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -261,15 +261,17 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
-- p: [36, 37]
+- p: [21, 22]
   k: {t: '$$mdi:backspace$$', type: backspace}
-- p: [49, 50]
+- p: [48, 49]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
-- p: [40, 41]
+- p: [41, 40]
   k: $$mdi:keyboard-tab$$
-- p: [14, 15]
+- p: [16, 17]
   k: $$mdi:keyboard-esc$$
 - p: [34, 35, 36, 37]
   k: '3'
-- p: [16, 17]
-  k: '2'
+- p: [41, 42]
+  k: COPY
+- p: [42, 43]
+  k: PASTE
