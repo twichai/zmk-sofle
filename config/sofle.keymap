@@ -59,22 +59,22 @@
 
         back_space {
             bindings = <&kp BACKSPACE>;
-            key-positions = <36 37>;
+            key-positions = <21 22>;
         };
 
         enter {
             bindings = <&kp ENTER>;
-            key-positions = <49 50>;
+            key-positions = <48 49>;
         };
 
         tab {
             bindings = <&kp TAB>;
-            key-positions = <40 41>;
+            key-positions = <41 40>;
         };
 
         esc {
             bindings = <&kp ESC>;
-            key-positions = <14 15>;
+            key-positions = <16 17>;
         };
 
         system_key {
@@ -82,9 +82,14 @@
             key-positions = <34 35 36 37>;
         };
 
-        to2 {
-            bindings = <&mo 2>;
-            key-positions = <16 17>;
+        copy {
+            bindings = <&kp K_COPY>;
+            key-positions = <41 42>;
+        };
+
+        paste {
+            bindings = <&kp K_PASTE>;
+            key-positions = <42 43>;
         };
     };
 
