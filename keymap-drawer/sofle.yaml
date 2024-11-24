@@ -265,15 +265,17 @@ combos:
   k: {t: '$$mdi:backspace$$', type: backspace}
 - p: [48, 49]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
-- p: [41, 40]
+- p: [41, 42]
   k: $$mdi:keyboard-tab$$
 - p: [29, 28]
   k: $$mdi:keyboard-esc$$
 - p: [34, 35, 36, 37]
   k: '3'
 - p: [41, 42]
-  k: AC COPY
+  k: Ctl+ COPY
 - p: [42, 43]
-  k: PASTE
+  k: Ctl+ PASTE
 - p: [29, 30]
+  k: $$mdi:apple-keyboard-shift$$
+- p: [34, 35]
   k: $$mdi:apple-keyboard-shift$$
