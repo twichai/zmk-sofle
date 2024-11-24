@@ -271,10 +271,6 @@ combos:
   k: $$mdi:keyboard-esc$$
 - p: [34, 35, 36, 37]
   k: '3'
-- p: [41, 42]
-  k: Ctl+ COPY
-- p: [42, 43]
-  k: Ctl+ PASTE
 - p: [29, 30]
   k: $$mdi:apple-keyboard-shift$$
 - p: [34, 35]
