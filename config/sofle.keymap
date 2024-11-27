@@ -110,11 +110,11 @@
 
         layer_1 {
             bindings = <
-&none  &none            &none      &none             &none       &none                 &none  &none      &none            &none         &none                 &none                  &none
-&none  &kp N1           &kp N2     &kp N3            &kp N4      &kp N5                &none  &kp N6     &kp N7           &kp N8        &kp N9                &kp N0                 &none
-&none  &kp EXCLAMATION  &kp AT     &kp HASH          &kp DOLLAR  &kp PERCENT           &none  &kp LCTRL  &kp AMPERSAND    &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none
-&none  &kp EQUAL        &kp MINUS  &kp LEFT_BRACKET  &kp SQT     &kp RBKT              &none  &to 3      &none            &trans        &trans                &kp BACKSLASH          &none
-&none  &none            &none      &none             &to 0       &mt LEFT_ALT SPACE    &none  &to 2      &kp RIGHT_SHIFT  &none         &none                 &none
+&none  &none            &none             &none           &none                 &none                 &none  &none      &none                  &none            &none              &none          &none
+&none  &kp N1           &kp N2            &kp N3          &kp N4                &kp N5                &none  &kp N6     &kp N7                 &kp N8           &kp N9             &kp N0         &none
+&none  &kp EXCLAMATION  &kp LEFT_BRACKET  &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &kp PLUS              &none  &kp MINUS  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp SQT        &none
+&none  &none            &none             &kp EQUAL       &kp AMPERSAND         &kp GRAVE             &none  &to 3      &kp PIPE               &trans           &trans             &kp BACKSLASH  &none
+&none  &none            &none             &none           &to 0                 &mt LEFT_ALT SPACE    &none  &to 2      &kp RIGHT_SHIFT        &none            &none              &none
             >;
 
             display-name = "layer1";
