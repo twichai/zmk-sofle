@@ -57,11 +57,6 @@
     combos {
         compatible = "zmk,combos";
 
-        enter {
-            bindings = <&kp ENTER>;
-            key-positions = <48 49>;
-        };
-
         tab {
             bindings = <&kp TAB>;
             key-positions = <41 42>;
@@ -74,27 +69,7 @@
 
         system_key {
             bindings = <&mo 3>;
-            key-positions = <34 35 36 37>;
-        };
-
-        l_shift {
-            bindings = <&kp LEFT_SHIFT>;
-            key-positions = <29 30>;
-        };
-
-        r_shift {
-            bindings = <&kp RIGHT_SHIFT>;
-            key-positions = <34 35>;
-        };
-
-        l_alt {
-            bindings = <&kp LEFT_ALT>;
-            key-positions = <29 31>;
-        };
-
-        r_alt {
-            bindings = <&kp RIGHT_ALT>;
-            key-positions = <33 35>;
+            key-positions = <34 35 36>;
         };
     };
 
@@ -103,11 +78,11 @@
 
         layer0 {
             bindings = <
-&none  &none  &none  &none  &none      &none                     &none  &none  &none          &none      &none    &none     &none
-&none  &kp Q  &kp W  &kp E  &kp R      &kp T                     &none  &kp Y  &kp U          &kp I      &kp O    &kp P     &none
-&none  &kp A  &kp S  &kp D  &kp F      &kp G                     &none  &kp H  &kp J          &kp K      &kp L    &kp SEMI  &none
-&none  &kp Z  &kp X  &kp C  &kp V      &kp B                     &none  &kp N  &kp M          &kp COMMA  &kp DOT  &kp FSLH  &none
-&none  &none  &none  &none  &kp SPACE  &mt LEFT_CONTROL ENTER    &none  &mo 1  &kp BACKSPACE  &none      &none    &none
+&none  &none  &none  &none  &none                 &none                     &none  &none  &none                      &none      &none    &none     &none
+&none  &kp Q  &kp W  &kp E  &kp R                 &kp T                     &none  &kp Y  &kp U                      &kp I      &kp O    &kp P     &none
+&none  &kp A  &kp S  &kp D  &kp F                 &kp G                     &none  &kp H  &kp J                      &kp K      &kp L    &kp SEMI  &none
+&none  &kp Z  &kp X  &kp C  &kp V                 &kp B                     &none  &kp N  &kp M                      &kp COMMA  &kp DOT  &kp FSLH  &none
+&none  &none  &none  &none  &mt LEFT_SHIFT SPACE  &mt LEFT_CONTROL ENTER    &none  &mo 1  &mt RIGHT_SHIFT BACKSPACE  &none      &none    &none
             >;
 
             display-name = "LAYER0";
