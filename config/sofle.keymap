@@ -65,6 +65,7 @@
         esc {
             bindings = <&kp ESC>;
             key-positions = <29 28>;
+            layers = <0 1>;
         };
 
         system_key {
