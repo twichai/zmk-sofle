@@ -17,13 +17,13 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Q
   - W
-  - E
+  - {t: E, h: '$$mdi:apple-keyboard-shift$$'}
   - R
   - T
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Y
   - U
-  - I
+  - {t: I, h: '$$mdi:apple-keyboard-shift$$'}
   - O
   - P
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -57,11 +57,11 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - layer1
-  - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
