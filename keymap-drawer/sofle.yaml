@@ -57,11 +57,11 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - layer1
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -233,7 +233,7 @@ layers:
   - {type: held}
   - {type: held}
   - {type: held}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -261,19 +261,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
-- p: [48, 49]
-  k: {t: '$$mdi:keyboard-return$$', type: enter}
 - p: [41, 42]
   k: $$mdi:keyboard-tab$$
 - p: [29, 28]
   k: $$mdi:keyboard-esc$$
-- p: [34, 35, 36, 37]
+- p: [34, 35, 36]
   k: '3'
-- p: [29, 30]
-  k: $$mdi:apple-keyboard-shift$$
-- p: [34, 35]
-  k: $$mdi:apple-keyboard-shift$$
-- p: [29, 31]
-  k: $$mdi:apple-keyboard-option$$
-- p: [33, 35]
-  k: $$mdi:apple-keyboard-option$$
