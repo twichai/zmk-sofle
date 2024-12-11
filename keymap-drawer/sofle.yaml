@@ -265,5 +265,6 @@ combos:
   k: $$mdi:keyboard-tab$$
 - p: [29, 28]
   k: $$mdi:keyboard-esc$$
+  l: [LAYER0, layer1]
 - p: [34, 35, 36]
   k: '3'
