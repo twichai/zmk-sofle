@@ -127,11 +127,11 @@
 
         layer_2 {
             bindings = <
-&none  &none       &none           &none           &none            &none                     &mmv MOVE_UP     &none          &none           &none         &none      &none  &none
-&none  &none       &none           &mmv MOVE_UP    &none            &none                     &mmv MOVE_DOWN   &none          &mkp LCLK       &mkp RCLK     &none      &none  &none
-&none  &none       &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &none                     &mmv MOVE_LEFT   &kp LEFT       &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &none  &none
-&none  &sys_reset  &none           &bootloader     &none            &none                     &mmv MOVE_RIGHT  &none          &none           &none         &none      &none  &none
-&none  &none       &none           &none           &to 0            &mt LEFT_CONTROL SPACE    &mkp LCLK        &kp RIGHT_ALT  &kp BACKSPACE   &none         &none      &none
+&none  &none       &none     &none        &none      &none                     &mmv MOVE_UP     &none          &none           &none         &none      &none  &none
+&none  &none       &none     &none        &none      &none                     &mmv MOVE_DOWN   &none          &none           &kp TAB       &none      &none  &none
+&none  &kp LALT    &kp LGUI  &kp LCTRL    &kp LSHFT  &none                     &mmv MOVE_LEFT   &kp LEFT       &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &none  &none
+&none  &sys_reset  &none     &bootloader  &none      &none                     &mmv MOVE_RIGHT  &none          &none           &none         &none      &none  &none
+&none  &none       &none     &none        &to 0      &mt LEFT_CONTROL SPACE    &mkp LCLK        &kp RIGHT_ALT  &kp BACKSPACE   &none         &none      &none
             >;
 
             sensor-bindings = <&scroll_encoder>;
