@@ -79,11 +79,11 @@
 
         layer0 {
             bindings = <
-&none  &none  &none  &none             &none      &none                     &none  &none  &none          &none             &none    &none     &none
-&none  &kp Q  &kp W  &mt LEFT_SHIFT E  &kp R      &kp T                     &none  &kp Y  &kp U          &mt LEFT_SHIFT I  &kp O    &kp P     &none
-&none  &kp A  &kp S  &kp D             &kp F      &kp G                     &none  &kp H  &kp J          &kp K             &kp L    &kp SEMI  &none
-&none  &kp Z  &kp X  &kp C             &kp V      &kp B                     &none  &kp N  &kp M          &kp COMMA         &kp DOT  &kp FSLH  &none
-&none  &none  &none  &none             &kp SPACE  &mt LEFT_CONTROL ENTER    &none  &mo 1  &kp BACKSPACE  &none             &none    &none
+&none  &none        &none  &none  &none      &none                     &none  &none  &none          &none      &none    &none            &none
+&none  &kp Q        &kp W  &kp E  &kp R      &kp T                     &none  &kp Y  &kp U          &kp I      &kp O    &kp P            &none
+&none  &kp A        &kp S  &kp D  &kp F      &kp G                     &none  &kp H  &kp J          &kp K      &kp L    &kp SEMI         &none
+&none  &mt LSHFT Z  &kp X  &kp C  &kp V      &kp B                     &none  &kp N  &kp M          &kp COMMA  &kp DOT  &mt RSHFT SLASH  &none
+&none  &none        &none  &none  &kp SPACE  &mt LEFT_CONTROL ENTER    &none  &mo 1  &kp BACKSPACE  &none      &none    &none
             >;
 
             display-name = "LAYER0";
