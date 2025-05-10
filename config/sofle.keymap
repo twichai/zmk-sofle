@@ -3,6 +3,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/pointing.h>
 
 #define ZMK_MOUSE_DEFAULT_MOVE_VAL 1200  // 600
 #define ZMK_MOUSE_DEFAULT_SCRL_VAL 20    // 10
@@ -73,11 +74,11 @@
 
         layer0 {
             bindings = <
-&kp MINUS  &kp N1  &kp N2        &kp N3            &kp N4    &kp N5     &none  &kp N6     &kp N7     &kp N8             &kp N9         &kp N0         &kp EQUAL
-&kp DEL    &kp Q   &kp W         &kp E             &kp R     &kp T      &none  &kp Y      &kp U      &kp I              &kp O          &kp P          &kp BSLH
-&kp ESC    &kp A   &kp S         &kp D             &kp F     &kp G      &none  &kp H      &kp J      &kp K              &kp L          &kp SEMI       &kp SQT
-&kp LSHFT  &kp Z   &kp X         &kp C             &kp V     &kp B      &none  &kp N      &kp M      &kp COMMA          &kp DOT        &kp FSLH       &kp RSHFT
-&none      &mo 1   &kp LEFT_ALT  &kp LEFT_CONTROL  &kp BSPC  &kp TAB    &none  &kp ENTER  &kp SPACE  &kp RIGHT_CONTROL  &kp RIGHT_ALT  &kp RIGHT_WIN
+&kp MINUS  &kp N1        &kp N2        &kp N3            &kp N4    &kp N5     &none  &kp N6     &kp N7     &kp N8             &kp N9            &kp N0             &kp EQUAL
+&kp DEL    &kp Q         &kp W         &kp E             &kp R     &kp T      &none  &kp Y      &kp U      &kp I              &kp O             &kp P              &kp BSLH
+&kp ESC    &kp A         &kp S         &kp D             &kp F     &kp G      &none  &kp H      &kp J      &kp K              &kp L             &kp SEMI           &kp SQT
+&kp LSHFT  &kp Z         &kp X         &kp C             &kp V     &kp B      &none  &kp N      &kp M      &kp COMMA          &kp DOT           &kp FSLH           &kp RSHFT
+&none      &kp LEFT_WIN  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp BSPC  &kp TAB    &none  &kp ENTER  &kp SPACE  &kp RIGHT_CONTROL  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
             >;
 
             display-name = "LAYER0";
